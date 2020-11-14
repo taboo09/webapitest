@@ -35,5 +35,18 @@ namespace wepapitest.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("data2")]
+        public IActionResult GetData2()
+        {
+            var rng = new Random();
+
+            var data = new {
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[rng.Next(Summaries.Length)]
+            };
+
+            return Ok(data);
+        }
     }
 }
