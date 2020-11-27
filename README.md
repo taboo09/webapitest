@@ -8,6 +8,11 @@ git log --oneline
 
 # merge into master branch
 git checkout master
+
 git pull origin master
+
 git merge other-branch
+
 git push origin master
+
+git stash --include-untracked
