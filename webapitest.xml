@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapitest</name>
+    </assembly>
+    <members>
+        <member name="M:webapitest.Controllers.UserController.GetUser">
+            <summary>
+            Get User
+            </summary>
+        </member>
+    </members>
+</doc>
