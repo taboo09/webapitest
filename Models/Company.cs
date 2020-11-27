@@ -6,5 +6,6 @@ namespace webapitest.Models
     {
         public Guid CompanyId { get; set; }
         public string CompanyName { get; set; }
+        public Branch Branch { get; set; }
     }
 }
