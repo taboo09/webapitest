@@ -16,6 +16,9 @@ namespace webapitest.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get User
+        /// </summary>
         [HttpGet]
         public IActionResult GetUser()
         {
